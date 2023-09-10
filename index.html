@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Generate Own QR</title>
+  <link rel="stylesheet" href="/style.css" >
+</head>
+<body>
+  <div class="container">
+    <h2>QR Code Generate!</h2>
+    
+    <input type="text" name="url" placeholder="enter your text or url">
+    <br>
+    <div id="imgBox">
+      <img src="" alt="" id="qrimg" >
+
+    </div>
+    <br>
+    <button id="gen" onclick="generateQr()">Generate</button>
+    <button id="dwn" onclick="dwnlbtn()" class="dwnbtn">Download</button>
+  </div>
+  
+
+
+  <script src="/script.js"></script>
+</body>
+</html>
